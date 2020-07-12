@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context="com.example.hp.mycity.My_City7">
+
+
+    <Button
+        android:id="@+id/but_collector"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:text="collectorate"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/but_court"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/but_collector"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:text="court"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/but_block"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/but_court"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:text="block office"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/but_circuit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/but_block"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:text="circuit house"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/but_police"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/but_circuit"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:text="police station"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/but_municipal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/but_police"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:text="municipal corporation"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+
+
+
+
+</LinearLayout>
+
+

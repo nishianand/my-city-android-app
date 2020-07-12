@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/but_population"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:text="population"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/but_area"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/but_population"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:text="area"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/but_literacy"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/but_area"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:text="literacy rate"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</LinearLayout>
+
+

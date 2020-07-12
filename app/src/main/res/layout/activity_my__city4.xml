@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/but_park"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:text="park"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/but_zoo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/but_park"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:text="zoo"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/but_museum"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/but_zoo"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:text="museum"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/but_planet"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/but_museum"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:text="planetarium"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+

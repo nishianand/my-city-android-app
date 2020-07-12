@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.hp.mycity">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="My City"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".My_CityHome">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+
+
+            </intent-filter>
+
+        </activity>
+
+
+
+
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+
+
+            </intent-filter>
+        </activity>
+
+
+       
+
+        <activity
+            android:name=".My_City3"
+            android:label="Medical Services" />
+        <activity
+            android:name=".My_City4"
+            android:label="Parks And Recreations" />
+        <activity
+            android:name=".My_City5"
+            android:label="Travel" />
+        <activity
+            android:name=".My_City6"
+            android:label="Prayer Rooms" />
+        <activity
+            android:name=".My_City7"
+            android:label="Officials" />
+        <activity
+            android:name=".My_City8"
+            android:label="Unofficial" />
+        <activity
+            android:name=".My_City9"
+            android:label="Hotels And Restaurant" />
+        <activity
+            android:name=".My_City10"
+            android:label="Banks" />
+        <activity
+            android:name=".My_City11"
+            android:label="Survey" />
+        <activity android:name=".LoginActivity">
+
+        </activity>
+        <activity android:name=".LocationActivity">
+
+        </activity>
+
+
+        <activity
+            android:name=".MapsActivity">
+
+        </activity>
+
+</application>
+
+</manifest>
